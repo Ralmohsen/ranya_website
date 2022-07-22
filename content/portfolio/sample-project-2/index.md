@@ -1,7 +1,7 @@
 ---
 title: GPND
 description: This is the description of our sample project
-date: "2020-05-02T19:47:09+02:00"
+date: "2021-05-02T19:47:09+02:00"
 jobDate: 2018
 work: []
 techs: []
@@ -27,3 +27,4 @@ autoencoder network. An extensive set of results show that the approach achieves
 state-of-the-art performance on several benchmark datasets.
 
 [[For full paper .PDF click here]](https://proceedings.neurips.cc/paper/2018/file/5421e013565f7f1afa0cfe8ad87a99ab-Paper.pdf)
+[[For Code click here]](https://github.com/podgorskiy/GPND)
