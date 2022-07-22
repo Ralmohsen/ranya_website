@@ -1,12 +1,12 @@
 ---
-title: GPND
+title: OSRAAE
 description: This is the description of our sample project
 date: "2020-05-02T19:47:09+02:00"
 jobDate: 2018
 work: []
 techs: []
 designs: []
-thumbnail: sample-project-2/GPND.jpg
+thumbnail: sample-project-3/WiML.pdf
 projectUrl:
 
 ---
@@ -22,8 +22,3 @@ distribution. We achieve this with two main contributions. First, we make the
 computation of the novelty probability feasible because we linearize the parameterized
 manifold capturing the underlying structure of the inlier distribution, and
 show how the probability factorizes and can be computed with respect to local
-coordinates of the manifold tangent space. Second, we improve the training of the
-autoencoder network. An extensive set of results show that the approach achieves
-state-of-the-art performance on several benchmark datasets.
-
-[[For full paper .PDF click here]](https://proceedings.neurips.cc/paper/2018/file/5421e013565f7f1afa0cfe8ad87a99ab-Paper.pdf)

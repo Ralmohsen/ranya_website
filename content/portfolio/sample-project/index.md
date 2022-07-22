@@ -24,3 +24,4 @@ training with priors that endow the model with this property,
 and prove that inference becomes easier and computationally
 more efficient. We show experimentally that the new
 framework leads to improved and more stable results.
+[[For full paper .PDF click here]](https://openaccess.thecvf.com/content/CVPR2022W/WiCV/papers/Almohsen_Generative_Probabilistic_Novelty_Detection_With_Isometric_Adversarial_Autoencoders_CVPRW_2022_paper.pdf)
