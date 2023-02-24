@@ -14,3 +14,4 @@ publishDate: "2023-02-23-02T19:25:30+02:00"
 
 
 ### Definition Novelty detection aims to detect any test samples that do not fall into any training category. Based on the number of training classes, ND contains two different settings: 1) oneclass novelty detection (one-class ND): only one class exists in the training set; 2) multi-class novelty detection (multi-class ND): multiple classes exist in the training set.The goal of multi-class ND is only to distinguish novel samples from ID. Both one-class and multi-class ND are formulated as binary classification problems.
+#While all these problems are related to each other by sharing similar motivations, subtle differences exist among the sub-topics in terms of the specific definition
