@@ -1,7 +1,7 @@
 ---
 title: ABOUT
 description: Hey, I'm Ranya Almohsen
-images: ["/images/sample.jpg"]
+#images: ["/images/sample.jpg"]
 ---
 
 
