@@ -1,11 +1,13 @@
 ---
 title: ABOUT
 description: Hey, I'm Ranya Almohsen
-#images: ["/images/sample.jpg"]
+images: ["/images/sample.jpg"]
 ---
 
 
-This is my about page. :wave:
+#This is my about page. :wave:
+This is my about page. 
+
 
 I am a PhD Candidate in Computer science in the Lane Department of Computer Science and Electrical Engineering at WVU.
 I work on Computer Vision lab at WVU. My focus is on developing intelligent algorithms that enhance the performance of representation learning, open-set classification and novelty detection.
