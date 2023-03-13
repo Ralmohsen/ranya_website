@@ -5,8 +5,7 @@ images: ["/images/sample.jpg"]
 ---
 
 
-#This is my about page. :wave:
-This is my about page. 
+This is my about page.
 
 
 I am a PhD Candidate in Computer science in the Lane Department of Computer Science and Electrical Engineering at WVU.
