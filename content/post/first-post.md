@@ -5,10 +5,49 @@ description: We will find out
 publishDate: "2023-02-23-02T19:25:30+02:00"
 ---
 
-### Out-of-distribution (OOD) detection is important to safety-critical machine learning applications and has been extensively studies with different methods.
 
 ### Most existing machine learning models are trained based on the closed-world assumption, where the test data is assumed to be drawn i.i.d. from the same distribution as the training data, known as in-distribution (ID). However, when models are deployed in an open-world scenario, test samples can be out-of-distribution (OOD) and therefore should be handled with caution. In addition to OOD detection, other problems also adopt the “open-world” assumption those are: outlier detection (OD), anomaly detection (AD), novelty detection (ND), and open set recognition (OSR). While all these problems are related to each other by sharing similar motivations, subtle differences exist among the sub-topics in terms of the specific definition.
+
 # There are two general types of distribution shift: covariate shift (e.g., OOD samples from a different domain) and semantic (e.g., OOD samples are drawn from different classes, label) shift. Formally, let X be the input (sensory) space and Y be the label (semantic) space, a data distribution is defined as a joint distribution P(X, Y ) over X × Y. Distribution shift can occur in either the marginal distribution P(X), or both P(Y ) and P(X). Note that shift in P(Y ) naturally triggers shift in P(X). Examples of covariate distribution shift on P(X) include adversarial examples, domain shift, and style changes. Importantly, covariate shift is more commonly used to evaluate model generalization and robustness performance, where the label space Y remains the same during test time. On the other hand, the detection of semantic distribution shift is the focal point of many detection tasks where the label space Y can be different between ID and OOD data and hence the model should not make any prediction.
+
+#Friday
+#The detection of semantic distribution shift (e.g., due to
+the occurrence of new classes) is the focal point of OOD
+detection tasks, where the label space Y can be different
+between ID and OOD data and hence the model should not
+make any prediction. In addition to OOD detection, several
+problems adopt the “open-world” assumption and have a
+similar goal of identifying OOD examples. theses include outlier detection (OD), anomaly detection (AD), novelty detection (ND), and open set recognition (OSR).
+# While all these problems are related to each other by sharing similar motivations, subtle differences exist among the sub-topics in terms of the specific definition
+#In this section, we introduce a
+unified framework termed generalized OOD detection, which
+encapsulates five related sub-topics: anomaly detection (AD),
+novelty detection (ND), open set recognition (OSR), out-ofdistribution (OOD) detection, and outlier detection (OD).
+These sub-topics can be similar in the sense that they all
+define a certain in-distribution, with the common goal of
+detecting out-of-distribution samples under the open-world
+assumption. However, subtle differences exist among the subtopics in terms of the specific definition and properties of ID
+and OOD data—which are often overlooked by the research
+community.
+
 # Definition Anomaly detection (AD) aims to detect any anomalous samples that are deviated from the predefined normality during testing. The deviation can happen due to either covariate shift or semantic shift, which leads to two sub-tasks: sensory AD and semantic AD, respectively
 # Definition Novelty detection aims to detect any test samples that do not fall into any training category. Based on the number of training classes, ND contains two different settings: 1) oneclass novelty detection (one-class ND): only one class exists in the training set; 2) multi-class novelty detection (multi-class ND): multiple classes exist in the training set.The goal of multi-class ND is only to distinguish novel samples from ID. Both one-class and multi-class ND are formulated as binary classification problems.
-# While all these problems are related to each other by sharing similar motivations, subtle differences exist among the sub-topics in terms of the specific definition
+# ***Generalizing to Unseen Domains: A Survey on Domain Generalization
+the goal of domain generalization is to learn a
+model from one or several different but related domains (i.e.,
+diverse training datasets) that will generalize well on unseen
+testing domains. For instance, given a training set consisting of images coming from sketches, cartoon images and
+paintings, domain generalization requires to train a good
+machine learning model that has minimum prediction error
+in classifying images coming from natural images or photos,
+which are clearly having distinguished distributions from
+the images in training set.  In
+DG, the target domain cannot be accessed and the training
+and test tasks are often the same while they have different
+distributions. Domain adaptation (DA) [12, 13] is also popular in recent years. DA aims to maximize the performance on a given
+target domain using existing training source domain(s). The
+difference between DA and DG is that DA has access to
+the target domain data while DG cannot see them during
+training. This makes DG more challenging than DA but
+more realistic and favorable in practical applications. from me: DG can access target/test 
+data no label no access to the samples themself, but DA can access samples of target without the labels.
