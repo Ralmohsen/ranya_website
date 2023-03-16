@@ -1,7 +1,7 @@
 ---
 title: Similarities and differences between out-of-distribution (OOD) and other neighboring problems
 description: We will find out
-#date: "2023-02-23-02T19:25:30+02:00"
+date: "2023-02-23-02T19:25:30+02:00"
 publishDate: "2023-02-23-02T19:25:30+02:00"
 ---
 
