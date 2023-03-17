@@ -1,6 +1,8 @@
 ---
 title: Similarities and differences between out-of-distribution (OOD) and other neighboring problems
 description: Contrast among OOD problems
+date: "2023-02-17T12:02:59-04:00"
+publishDate: "2023-02-17T12:02:59-04:00"
 ---
 
 ##### Most existing machine learning models are trained based on the closed-world assumption, where the test data is assumed to be drawn i.i.d. from the same distribution as the training data, known as in-distribution (ID). However, when models are deployed in an open-world scenario, test samples can be out-of-distribution (OOD) and therefore should be handled with caution. In addition to OOD detection, other problems also adopt the “open-world” assumption those are: outlier detection (OD), anomaly detection (AD), novelty detection (ND), and open set recognition (OSR). While all these problems are related to each other by sharing similar motivations, subtle differences exist among the sub-topics in terms of the specific definition.
