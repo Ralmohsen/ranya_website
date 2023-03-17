@@ -1,5 +1,5 @@
 ---
-title: Similarities and differences between out-of-distribution (OOD) and other neighboring problems
+title: Similarities and Differences Between Out-of-Distribution (OOD) and Other Neighboring Problems
 description: Contrast among OOD problems
 date: "2023-02-17T12:02:59-04:00"
 publishDate: "2023-02-17T12:02:59-04:00"
