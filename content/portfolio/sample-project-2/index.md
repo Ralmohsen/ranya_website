@@ -6,7 +6,7 @@ jobDate: 2022
 work: []
 techs: []
 designs: []
-thumbnail: sample-project/WiCV22-poster.jpg
+thumbnail: sample-project-2/WiCV22-poster.jpg
 projectUrl:
 
 ---

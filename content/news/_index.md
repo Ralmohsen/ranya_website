@@ -1,15 +1,16 @@
 ---
-title: ABOUT
-description: Hey, I'm Ranya Almohsen
+title: Latest News...
+description: News
 images: ["/images/sample.jpg"]
 ---
+<ul> 
+  <li><h5 style="color:black"> Our paper "A Robust Likelihood Model for Novelty Detection" has been selected as a spotlight in CVPR Workshop 2023, Computer Vision in the Wild</h5></li>
+  <li><h5 style="color:black"> CVPR Doctoral Consortium Virtual 2023</h5></li>
+ <li><img src="img/CVPR2023DC_Virtual.png" alt="CVPR 2023 Virtual"  width="400px" height="600px"></li>
+
+  <li><h5 style="color:black"> Graduation Ceremony WVU 2023</h5></li>
+
+</li>
+ <li><img src="img/Graduation.jpg" alt="Graduation Ceremony WVU"  width="400px" height="600px"></li>
 
 
-This is my about page.
-
-
-I am a PhD Candidate in Computer science in the Lane Department of Computer Science and Electrical Engineering at WVU.
-I work on Computer Vision lab at WVU. My focus is on developing intelligent algorithms that enhance the performance of representation learning, open-set classification and novelty detection.
-I spent most of my time at the vision lab, but if I have time you can find my hiking or exploring our mother earth :earth_africa:
-
-If you want to checkout our lab's website please click [here](https://vision.csee.wvu.edu/about/)

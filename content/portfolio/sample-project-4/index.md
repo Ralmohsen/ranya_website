@@ -6,7 +6,7 @@ jobDate: 2018
 work: []
 techs: []
 designs: []
-thumbnail: sample-project-3/WiML.jpg
+thumbnail: sample-project-4/WiML.jpg
 projectUrl:
 
 ---

@@ -6,7 +6,7 @@ jobDate: 2018
 work: []
 techs: []
 designs: []
-thumbnail: sample-project-2/GPND.jpg
+thumbnail: sample-project-3/GPND.jpg
 projectUrl:
 
 ---
